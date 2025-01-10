@@ -15,7 +15,7 @@ cd cdr-billing-smart-contracts
 
 ## Installing
 
-To install all necessary packages and dependencies in the project, run command
+To install all necessary packages and dependencies in the project, run command.
 
 ```
 yarn install
@@ -23,7 +23,7 @@ yarn install
 
 ## Compile the code
 
-To compile the smart contracts, run command
+To compile the smart contracts, run command.
 
 ```
 yarn compile
@@ -31,7 +31,7 @@ yarn compile
 
 ## Testing
 
-To run the tests and ensure that the contracts behave as expected, run command
+To run the tests and ensure that the contracts behave as expected, run command.
 
 ```
 yarn test
@@ -42,13 +42,12 @@ yarn test
 - The design approach not tied exclusively to `solidity` or `evm-based` but can be applied across various Distributed Ledger Technologies (DLTs) or blockchain frameworks that support turing-complete smart contracts.
 - Avoid `WRITE` or `UPDATE` operation with sliding window algorithm for billing efficiently over a specified time period. This method helps in maintaining a consistent billing cycle by leveraging a sliding window mechanism that automatically accounts for time-based without needing constant manual updates.
 
-## Security Consideration
+## Security Considerations
 
-- AS-IS, when change the network `blocktime` total billing cycle will be recalculate
+- AS-IS, when change the network `blocktime` total billing cycle will be recalculated.
 
 ---
 
 ## License
 
-All code within the `contracts` directory is released under the [GNU General Public License v3.0](LICENSE).  
-Copyright (C) sirawt. You are free to use, modify, and distribute the code under the terms of the [GPL v3.0](LICENSE).
+Copyright (C) Sirawit Techavanitch. You are free to use, modify, and distribute the code under the terms of the [GPL v3.0](LICENSE).
